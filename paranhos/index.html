@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Fernando Paranhos" />
+  <title>Fernando Paranhos</title>
+
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="./lib/nivo-slider/nivo-slider.css" />
+
+
+  <!-- Ajax -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+  <!-- Nivo Slider -->
+  <script src="./lib/nivo-slider/jquery.nivo.slider.js"></script>
+
+
+
+</head>
+
+<body>
+  <!-- Menu -->
+  <div class="div-header">
+    <span class="color-header">11 123-123</span> <span class="telefone-header">11 123-123</span>
+  </div>
+
+  <header class="header-corpo">
+    <div class="menu">
+      <div class="imagem-menu">
+        <span class="imagem-descricao-menu">IMAGEM</span>
+      </div>
+
+      <div class="hamIcon" onclick="toggleClass()">
+        <h1 class="icon-menu">&#9776;</h1>
+      </div>
+
+      <div class="mainMenu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">EMPRESA</a>
+            <ul class="submenu">
+              <li>SUBMENU 1</li>
+              <li>SUBMENU 1</li>
+              <li>SUBMENU 1</li>
+              <li>SUBMENU 1
+                <ul>
+                  <li>SUBMENU 2</li>
+                  <li>SUBMENU 2</li>
+                  <li>SUBMENU 2</li>
+                </ul>
+
+              </li>
+            </ul>
+
+
+          <li><a href="#">CLIENTES</a></li>
+          <li><a href="#">CONTATO</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Fim  Menu -->
+
+    <!-- Slide -->
+    <div id="slider" class="nivoSlider">
+      <img src="img/894x290.jpg" data-thumb="img/894x290.jpg" alt="" />
+      <img src="img/894x290_02.jpg" data-thumb="img/894x290.jpg" alt="" />
+    </div>
+  </header>
+  <!-- Fim Slide -->
+
+  <!-- Conteudo -->
+  <section class="section-conteudo">
+    <div class="div-conteudo">
+      <div class="descricao-conteudo">
+
+        <h1>TESTE DE HTML E CSS</h1> <br>
+
+        <p>Quesitos de avaliação:</p> <br>
+
+
+        <li class="descricao-avaliacao">Organização do código (Quanto mais limpo melhor);</li> <br>
+        <li class="descricao-avaliacao">Nível de detalhismo (quanto mais identico melhor);</li><br>
+        <li class="descricao-avaliacao">Tempo de desenvolvimento (seja sincero ao enviar o tempo gasto);</li><br>
+
+        <p>Obrigado e boa sorte!</p>
+      </div>
+
+      <div>
+        <img class="imagem-conteudo" src="img/325x212.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- Fim Conteudo -->
+
+
+  <!-- Boxes -->
+  <section class="section-boxes">
+
+    <h1>BOXES DE DESTAQUES</h1>
+    <div class="div-box">
+
+      <div>
+        <img class="imagem-box" src="img/196x163.jpg" alt=""> <br>
+        <p class="texto-box">
+          Um texto descrito com link apenas.
+        </p>
+      </div>
+
+      <div>
+        <img class="imagem-box" src="img/196x163.jpg" alt=""> <br>
+        <p class="texto-box">
+          Um texto descrito com link apenas.
+        </p>
+      </div>
+
+      <div>
+        <img class="imagem-box" src="img/196x163.jpg" alt=""> <br>
+        <p class="texto-box">
+          Um texto descrito com link apenas.
+        </p>
+      </div>
+
+      <div>
+        <img class="imagem-box" src="img/196x163.jpg" alt=""> <br>
+        <p class="texto-box">
+          Um texto descrito com link apenas.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Fim Boxes -->
+
+
+  <!-- Rodape -->
+  <footer class="footer">
+    <div>
+
+      <ul class="menufooter">
+        <li class="menufooter-opcao"><a href="#">HOME</a></li>
+        <li class="menufooter-opcao"><a href="#">EMPRESA</a></li>
+        <li class="menufooter-opcao"><a href="#">CLIENTES</a></li>
+        <li class="menufooter-opcao"><a href="#">CONTATO</a></li>
+      </ul>
+
+
+      <h3 class="descricao-rodape">RODAPE</h3>
+
+    </div>
+  </footer>
+  <!-- Fim Rodape -->
+
+
+</body>
+
+
+
+<!-- Nivo Slider -->
+<script>
+  $(window).load(function () {
+    $("#slider").nivoSlider({
+
+
+    });
+  });
+</script>
+
+<!-- Java Script -->
+<script src="script.js"></script>
+
+</html>
